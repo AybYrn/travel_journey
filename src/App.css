@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+  width: 550px;
+  height: 704px;
+  margin: 0 auto;
+  font-family: 'Montserrat Alternates', sans-serif;
+  box-shadow: 0 0 10px rgba(255, 161, 161, 0.5);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navigation--bar{
+  background-color: #F55A5A;
+  width: 550px;
+  height: 55px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.navigation--bar div, .navigation--bar p{
+  padding: 10px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bold {
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gray{
+  color: #8E8E8E;
+  font-weight: normal;
+}
+
+a{
+  padding-left: 12px;
+}
+
+img{
+  border: 10px;
+}
+
+.card--container{
+  margin-top: 60px;
+  display: block;
+}
+
+.card {
+  margin-left: 40px;
+   width: 470px;
+  max-height: 168px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 36px;
+}
+
+.text--area{
+  padding-left: 19px;
+}
+
+.desc{
+  color: black;
+  font-size: 10.24px;
+  padding-top: 9px;
+}
+
+.title{ 
+  padding-top: 4px;
+  font-size: 25px;
+}
+
+.Map{
+  padding-right: 4px;
 }
